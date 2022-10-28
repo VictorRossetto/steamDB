@@ -11,11 +11,14 @@
 </ul>
 
 ## Projeto 💻
-O projeto foi feito para simular o site ![steamDB](https://steamdb.info/) Fiz a fins de estudo. 
+O projeto foi feito para simular o site [steamDB](https://steamdb.info/) Fiz a fins de estudo. 
 
 ## Para rodar o projeto ⏯
-Para rodar o Projeto é necessário estar rodando o Back-END do Projeto.
+Para rodar o Projeto é necessário estar rodando o Back-END do Projeto.<br/>
 ```npm start```
 
 ### Instalação de dependências:
 ```npm install```
+
+# Autore
+[<img src="https://avatars.githubusercontent.com/VictorRossetto" width=115><br><sub>Victor Rossetto Campos</sub>](https://github.com/VictorRossetto)
