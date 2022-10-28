@@ -1,0 +1,88 @@
+.header{
+    background-color: black;
+    width: 100%;
+    height: 48px;
+    display: grid;
+    grid-template-columns: minmax(max-content,1fr) minmax(min-content,960px) minmax(max-content,1fr);
+    position: fixed;
+    top: 0;
+    z-index: 1001;
+}
+.header-navbar{
+    align-items: center;
+    display: flex;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 14px;
+
+}
+.header-menu-container{
+    align-items: center;
+    display: flex;
+}
+.header-menu{
+    margin-left:18px ;
+    height: 30px;
+    padding: 0 15px;
+    cursor: pointer;
+    color: white;
+    background: #333;
+    border: 1px solid #666;
+    border-radius:  6px;
+    
+}
+.header-menu span{
+    vertical-align: top;
+    font-size: 15px;
+    margin-left: 3px;
+}
+.header-navbar a{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: white;
+   padding: 0 10px;
+   
+}
+.header-navbar span{
+    margin-left: 6px;
+}
+.header-brand{
+    font-weight: 700;
+    font-size: 16px;
+}
+.header-search{
+    display: flex;
+    width: 100%;
+    max-width: 250px;
+    background-color: #333;
+    border-color: #333;
+    border-radius: 6px;
+}
+.field{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    line-height: 19px;
+    height: 30px;
+    min-height: 30px;
+    color: #fff;
+    padding: 0 0 0 7px;
+}
+.submit{
+    width: 28px;
+    border: 0;
+    border-radius: 6px;
+    outline: none;
+    background: none;
+    color: #999;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+.header-user{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}

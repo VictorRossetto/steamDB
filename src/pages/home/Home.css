@@ -1,0 +1,68 @@
+.b{
+    padding-top: var(--navbar-height);
+}
+.hello{
+    inline-size: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteainer-products{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.most-played-games-title{
+    display: grid;
+    grid-template-columns: 3fr repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: white;
+}
+.app{
+    display: grid;
+    grid-template-columns: 3fr repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-top: 1px solid #292e3d;
+}
+.app a {
+    text-decoration: none;
+    color: white;
+}
+.l2{
+    color: greenyellow;
+}
+.cont{
+    background-color: #1f232e;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px ;
+}
+
+
+
+/*-------------------------*/
+
+
+.most-played-games-title p {
+    text-align: center;
+}
+.app{
+    align-items: center;
+}
+.app a{
+    display: flex;
+    align-items: center;
+}
+.app p {
+    text-align: center;
+}

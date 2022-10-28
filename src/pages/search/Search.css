@@ -1,0 +1,29 @@
+.searchGames{
+    display: flex;
+}
+.searchGames-man{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchTb{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.searchTb a {
+    border-left: 1px solid #394960;
+    border-top: 1px solid #394960;
+    padding: 5px;
+}
+.searchTb div {
+    border-left: 1px solid #394960;
+    border-top: 1px solid #394960;
+    padding: 5px;
+}
+.searchTb-man{
+    border: 1px solid #394960 ;
+    border-radius: 5px;
+}
