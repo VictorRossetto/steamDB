@@ -20,5 +20,5 @@ Para rodar o Projeto é necessário estar rodando o Back-END do Projeto.<br/>
 ### Instalação de dependências:
 ```npm install```
 
-# Autore
+# Autor
 [<img src="https://avatars.githubusercontent.com/VictorRossetto" width=115><br><sub>Victor Rossetto Campos</sub>](https://github.com/VictorRossetto)
